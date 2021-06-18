@@ -1,11 +1,19 @@
 import React from "react";
-import { Image, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 
 import { StatusBar } from "expo-status-bar";
 
 import { Button } from "./src/components/Button";
 import { Footer } from "./src/components/Footer";
 import { Header } from "./src/components/Header";
+import { Home } from "./src/Screens/Home";
 
 export default function App() {
   return (
@@ -22,9 +30,7 @@ export default function App() {
             source={require("./assets/children_background.png")}
           />
         </View>
-
         <Button />
-
         <Footer />
       </View>
     </SafeAreaView>

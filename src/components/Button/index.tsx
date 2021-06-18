@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 export function Button() {
   return (
     <TouchableOpacity style={styles.button}>
-      <Text style={styles.subtitleButton}>Entrar</Text>
+      <Text style={styles.subtitleButton}>Começar</Text>
     </TouchableOpacity>
   );
 }
